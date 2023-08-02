@@ -16,12 +16,20 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Alubless</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Aluminium Extrusion Alubless"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <meta 
+          name="URL"
+          content="https://www.alubless.com"
+        />
+        <meta
+          name="type"
+          content="website"
+        />
+        <link rel="icon" href="/alubless.ico" />
       </Head>
 
       <Navbar />

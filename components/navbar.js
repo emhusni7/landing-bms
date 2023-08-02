@@ -25,7 +25,7 @@ const Navbar = () => {
                     <span>
                       <Image
                         src="/img/alubless-icon.png"
-                        alt="N"
+                        alt="A"
                         width="42"
                         height="42"
                         className="w-24"

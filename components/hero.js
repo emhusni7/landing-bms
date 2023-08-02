@@ -50,28 +50,20 @@ const Hero = () => {
           </div>
         </div>  */}
         
-        <Carousel>
-          <div className="w-full h-96 lg:h-[34rem]">
-              <Image
-                src={heroImg}
-                className={"w-full rounded-lg h-full"}
-                alt="Hero Illustration"
-                loading="eager"
-                // placeholder="blur"
-              />
-          </div>
-          <div className="w-full h-96 lg:h-[34rem]">
-              <Image
-                src={Img2}
-                className={"w-full rounded-lg h-full"}
-                alt="Hero Illustration"
-                loading="eager"
-                // placeholder="blur"
-              />
-          </div>
+        <Carousel showThumbs={false} showArrows={true} autoPlay={true} stopOnHover={false} interval={3000} infiniteLoop={true} animationHandler="fade" swipeable={false}>
           <div className="w-full h-96 lg:h-[34rem]">
               <Image
                 src={Img3}
+                className={"w-full rounded-lg h-full"}
+                alt="Hero Illustration"
+                loading="eager"
+                // placeholder="blur"
+              />
+          </div>
+
+          <div className="w-full h-96 lg:h-[34rem]">
+              <Image
+                src={Img2}
                 className={"w-full rounded-lg h-full"}
                 alt="Hero Illustration"
                 loading="eager"
